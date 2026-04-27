@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusión Gourmet | Festival Gastronómico de Vanguardia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">FUSIÓN <span>GOURMET</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">El Festival</a></li>
+                <li><a href="#schedule">Horarios</a></li>
+                <li><a href="#gallery">Multimedia</a></li>
+                <li><a href="#tickets" class="btn-small">Reservar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <h1>Sabores que Desafían los Sentidos</h1>
+                <p>Únete a la experiencia culinaria más innovadora del año. Cocina de autor, técnica y tradición en un solo lugar.</p>
+                <div class="cta-group">
+                    <a href="#tickets" class="btn-primary">Comprar Entradas</a>
+                    <a href="#schedule" class="btn-secondary">Ver Calendario</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <div class="about-text">
+                <h2>Vanguardia en cada bocado</h2>
+                <p>Fusión Gourmet es un manifiesto sobre la evolución del sabor. Reunimos a los chefs más disruptivos para crear una experiencia inmersiva e inolvidable.</p>
+                <ul class="philosophy-list">
+                    <li><strong>Innovación:</strong> Técnicas moleculares aplicadas a productos locales.</li>
+                    <li><strong>Sostenibilidad:</strong> Respeto absoluto por el origen y la temporada.</li>
+                    <li><strong>Experiencia:</strong> Más que comida, creamos memorias sensoriales.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <div class="image-box"></div>
+            </div>
+        </section>
+
+        <section id="schedule" class="schedule container">
+            <h2>Cronograma de Experiencias</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Horario</th>
+                            <th>Taller / Cata</th>
+                            <th>Chef Expositor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10:00 AM</td>
+                            <td>Deconstrucción del Café</td>
+                            <td>Chef Elena Arzak</td>
+                        </tr>
+                        <tr>
+                            <td>02:00 PM</td>
+                            <td>Maridaje de Vinos Orgánicos</td>
+                            <td>Sommelier Julián Ríos</td>
+                        </tr>
+                        <tr>
+                            <td>06:00 PM</td>
+                            <td>Cena de Gala: 7 Tiempos</td>
+                            <td>Chef Quique Dacosta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery container">
+            <h2>Galería del Festival</h2>
+            <div class="grid-gallery">
+                <article  class="gallery-item item-1" src><span>Platillos de Autor</span></article>
+                <article class="gallery-item item-2" ><span>Talleres en Vivo</span></article>
+                <article class="gallery-item item-3"><span>Nuestras Sedes</span></article>
+                <article class="gallery-item item-4"><span>Experiencia VIP</span></article>
+            </div>
+        </section>
+
+        <section id="tickets" class="container tickets-section">
+            <h2>Entradas</h2>
+            <p>Compra tu entrada anticipada y asegura tu plaza en las actividades que más te interesen.</p>
+
+            <form id="signup-form" class="signup-form">
+                <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input id="name" name="name" type="text" required placeholder="Ej. María Pérez">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" name="email" type="email" required placeholder="ejemplo@dominio.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="tickets-count">Cantidad de entradas</label>
+                    <select id="tickets-count" name="tickets-count" required>
+                        <option value="">Selecciona...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <button class="btn-submit" type="submit">Reservar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Fusión Gourmet</h3>
+                <p>Bogotá, Colombia - Edición 2026</p>
+                <p>Email: contacto@fusiongourmet.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fusión Gourmet. Diseñado por Luigui Garizado.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
